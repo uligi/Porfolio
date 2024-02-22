@@ -1,0 +1,118 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hero section */
+.hero {
+    background-color: #0099cc;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Resume section */
+.resume {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Projects section */
+.projects {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* About me section */
+.aboutme {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutme img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Contact me section */
+.contactme {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+/* Estilo para el enlace Click here */
+.click {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #0099cc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Cambia el color de fondo al pasar el cursor sobre el enlace */
+.click:hover {
+    background-color: #f2f2f2;
+}
+section {
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Añade un poco de estilo para los títulos de sección */
+section h1 {
+    margin-top: 0;
+    color: #333;
+    font-size: 2em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Añade un poco de espacio entre las secciones para una mejor legibilidad */
+section + section {
+    margin-top: 40px;
+}
+
+/* Botones de Contact Me */
+.custom-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #0099cc;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+}
+
+.custom-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Cambiar el color de fondo al pasar el cursor sobre el botón */
+.custom-btn:hover {
+    background-color: #f2f2f2;
+}
+
+
